@@ -1,0 +1,90 @@
+/* 
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dd,
+dt,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  /* margin: 0; */
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* @font-face {
+  font-family: 'Noah';
+  src: url('../fonts/Noahregular.woff2') format('woff2'),
+    url('../fonts/Noahregular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+
+
+
+.header {
+  color: #fff;
+  width: 100%;
+}
+
+.container {
+  max-width: 1240px;
+  /* margin: 0 auto; */
+  padding: 0 10px;
+}
+
+
+
+
+
+
+@media (max-width: 1240px) {
+  .container {
+    max-width: 980px;
+  }
+} */
