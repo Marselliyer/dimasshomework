@@ -59,6 +59,7 @@ fieldset {
 textarea {
   resize: vertical;
   max-height: 200px;
+  min-height: 50px;
   display: block;
   max-width: 250px;
   width: 100%;
