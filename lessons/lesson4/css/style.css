@@ -59,18 +59,16 @@ fieldset {
 textarea {
   resize: vertical;
   max-height: 200px;
+  display: block;
+  max-width: 250px;
+  width: 100%;
+  margin-top: 5px;
+  outline: none;
 }
 
 .form_label {
   display: block;
   margin-bottom: 8px;
-}
-
-textarea {
-  display: block;
-  max-width: 250px;
-  width: 100%;
-  margin-top: 5px;
 }
 
 .form_input {
@@ -81,6 +79,7 @@ textarea {
   max-width: 250px;
   width: 100%;
   padding: 2px 2px 2px 8px;
+  outline: none;
 }
 
 .form_title {
