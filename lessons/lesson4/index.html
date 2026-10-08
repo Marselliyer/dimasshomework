@@ -12,12 +12,9 @@
 </head>
 
 <body>
-
-
-
   <form action="">
-    <fieldset>
-      <h3 class="form_title">Ваши личные данные</h3>
+    <fieldset class="field_top">
+      <legend class="form_title">Ваши личные данные</legend>
       <label class="form_label" for="">Ваше имя
         <input class="form_input" type="text" placeholder="Имя" name="name" required>
       </label>
@@ -30,104 +27,18 @@
       <label class="form_label" for="">Ваша почта
         <input class="form_input" type="email" placeholder="Почта" name="email" required>
       </label>
+    </fieldset>
+    <fieldset class="field_bottom">
       <label class="form_label" for="">Сообщение
-        <textarea name="info" id="" placeholder="Ваше сообщение" required></textarea>
+        <textarea class="form_input" name="info" id="" placeholder="Ваше сообщение" required></textarea>
       </label>
-      <label class="form_label" class="check" for="">
-        <input class="choice" type="checkbox" name="rule" required>
+      <label class="form_label" for="">
+        <input class="checkbox" type="checkbox" name="rule" required>
         Я принимаю правила
       </label>
       <button class="button" type="submit">Отправить</button>
     </fieldset>
   </form>
-
-
-  <!-- <form action="">
-    <fieldset>
-      <legend>Данные человека</legend>
-      <label for="">
-        Имя
-        <input type="text" required>
-      </label>
-      <label for="">
-        Фамилия
-        <input type="text" required>
-      </label>
-      <label for="">
-        Номер телефона
-        <input type="tel" required inputmode="tel">
-      </label>
-      <label for="">
-        Электронная почта
-        <input type="email" inputmode="email">
-      </label>
-      <label for="">
-        Возраст
-        <input type="number">
-      </label>
-      <label for="">
-        Дата рождения
-        <input type="date">
-      </label>
-    </fieldset>
-
-    <fieldset>
-      <legend>
-        Доп информация
-      </legend>
-      <label for="">
-        <textarea name="info" id=""></textarea>
-      </label>
-    </fieldset>
-
-    <button type="submit">Отправить форму</button>
-    <button type="reset">Очистить форму</button>
-  </form> -->
-
-  <!-- 
-  <form action="">
-    <label class="label" for=""> 1
-      <input type="checkbox" name="first" value="first">
-    </label>
-    <label class="label" for=""> 2
-      <input type="checkbox" name="second" value="second">
-    </label>
-    <label class="label" for=""> 3
-      <input type="checkbox" name="third" value="third">
-    </label>
-    <button type="submit">Отправить форму</button>
-  </form>
-
-  <form action="">
-    <h2>Выбери язык программирования</h2>
-    <label class="label" for="">
-      <input type="radio" name="language" value="html">
-      HTML
-    </label>
-    <label class="label" for="">
-      <input type="radio" name="language" value="css">
-      CSS
-    </label>
-    <label class="label" for="">
-      <input type="radio" name="language" value="javascript">
-      Javascript
-    </label>
-    <button type="submit">Отправить форму</button>
-  </form>
-
-  <form action="">
-
-    <label for=""> Выбери город
-      <select name="city" id="" required>
-        <option value="" selected disabled>Не выбрано</option>
-        <option value="stavropol">Ставрополь</option>
-        <option value="divnoe">Дивное</option>
-        <option value="moscow">Москва</option>
-        <option value="spb">Санк-Петербург</option>
-      </select>
-    </label>
-    <button type="submit">Отправить</button>
-  </form> -->
 
   <script src="js/main.js"></script>
 
