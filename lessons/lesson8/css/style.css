@@ -133,11 +133,3 @@ textarea {
 .button:hover {
   opacity: 0.85;
 }
-
-.button:disabled {
-  opacity: 0, 7;
-}
-
-.button:not(:disabled):active {
-  background-color: #8719db;
-}
