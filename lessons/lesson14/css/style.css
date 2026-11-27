@@ -239,6 +239,9 @@ video {
   display: none;
 }
 
+.main {
+  margin-top: 100px;
+}
 
 @media (width <=1200px) {
   .container {
